@@ -1,0 +1,13 @@
+development:
+  app_id:
+  app_secret:
+  access_token: 
+  redirect_url:
+  count: 100
+  query: The doors
+production:
+  app_id:
+  app_secret:
+  access_token:
+  count: 100
+  query: The doors

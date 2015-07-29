@@ -1,0 +1,27 @@
+%h1.pull-left Listing tracks
+
+%table.table.table-striped
+  %thead
+    %tr
+      %th #
+      %th Artit
+      %th Title
+      %th Album
+      %th Genre
+      %th
+
+  %tbody
+    - @tracks.each do |track|
+      %tr
+        %td= track.id
+        %td= track.artist
+        %td= track.title
+        %td= track.album
+        %td= track.genre
+        %td
+          %ul.playlist
+            - track.playlist.each do |chunk|
+              %li
+                %audio.audio{preload: 'auto', controls: '', src: chunk}
+
+= paginate @tracks, theme: 'twitter-bootstrap-3'

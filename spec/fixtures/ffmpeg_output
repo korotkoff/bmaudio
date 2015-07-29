@@ -1,0 +1,38 @@
+ffmpeg version 2.6.2 Copyright (c) 2000-2015 the FFmpeg developers
+  built with Apple LLVM version 6.1.0 (clang-602.0.49) (based on LLVM 3.6.0svn)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/2.6.2 --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-libx264 --enable-libmp3lame --enable-libvo-aacenc --enable-libxvid --enable-vda
+  libavutil      54. 20.100 / 54. 20.100
+  libavcodec     56. 26.100 / 56. 26.100
+  libavformat    56. 25.101 / 56. 25.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 11.102 /  5. 11.102
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  1.100 /  1.  1.100
+  libpostproc    53.  3.100 / 53.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fdc92800000] stream 0, timescale not set
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '07 Riders On the Storm.m4a':
+  Metadata:
+    major_brand     : M4A
+    minor_version   : 0
+    compatible_brands: M4A mp42isom
+    creation_time   : 2005-10-27 04:19:24
+    title           : Riders On the Storm
+    artist          : The Doors
+    album_artist    : The Doors
+    album           : The Doors: The Very Best Of
+    genre           : Рок
+    track           : 7/20
+    disc            : 1/1
+    date            : 2001
+    compilation     : 0
+    media_type      : 1
+    purchase_date   : 2012-12-18 17:28:59
+    sort_album      : Doors: The Very Best Of
+    sort_artist     : Doors
+    sort_album_artist: Doors
+  Duration: 00:07:07.27, start: 0.000000, bitrate: 309 kb/s
+    Stream #0:0(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 297 kb/s (default)
+    Metadata:
+      creation_time   : 2005-10-27 04:19:24
+    Stream #0:1: Video: mjpeg, yuvj444p(pc, bt470bg/unknown/unknown), 600x600 [SAR 72:72 DAR 1:1], 90k tbr, 90k tbn, 90k tbc

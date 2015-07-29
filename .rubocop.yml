@@ -1,0 +1,8 @@
+LineLength:
+  Max: 120
+
+AsciiComments:
+  Enabled: false
+
+Documentation:
+  Enabled: false
