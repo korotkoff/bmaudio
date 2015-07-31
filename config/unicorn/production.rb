@@ -10,7 +10,7 @@
 
 app_name = 'bmaudio'
 
-deploy_to = "/var/www/#{app_name}"
+deploy_to = "/home/bmaudio/www/#{app_name}"
 rails_root = "#{deploy_to}/current"
 pid_file = "#{deploy_to}/shared/tmp/pids/unicorn.pid"
 socket_file = "#{deploy_to}/shared/tmp/sockets/unicorn.sock"
