@@ -54,6 +54,6 @@ class Split < ActiveJob::Base
   def transcode(from, to, force = false)
     return if !force && File.exist?(chunk_name(from))
 
-    file.transcode(chunk_name(from), "-ss #{from} -to #{to}")
+    file.transcode(chunk_name(from), "-ss #{from} -to #{to} -b:a 128k -strict experimental -c:a aac")
   end
 end

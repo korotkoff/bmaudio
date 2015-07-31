@@ -22,7 +22,7 @@ class Convert < ActiveJob::Base
   end
 
   def transcode
-    @media.transcode(transcode_path, audio_bitrate: 128)
+    @media.transcode(transcode_path, '-b:a 128k -strict experimental -c:a aac')
   end
 
   def transcode_path
